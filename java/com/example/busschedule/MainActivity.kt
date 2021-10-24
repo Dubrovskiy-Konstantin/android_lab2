@@ -47,16 +47,6 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(applicationContext, e.message, Toast.LENGTH_LONG).show()
         }
 
-//        spinner?.onItemSelectedListener = object : AdapterView.OnItemSelectedListener{
-//            override fun onNothingSelected(parent: AdapterView<*>?) {
-//
-//            }
-//
-//            override fun onItemSelected(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
-//
-//            }
-//        }
-
         if(intent.extras == null){
             _setBusList()
         }
